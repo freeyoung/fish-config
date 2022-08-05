@@ -59,6 +59,8 @@ SETUVAR _fish_abbr_gfrt:git\x20flow\x20release\x20track
 SETUVAR _fish_abbr_gfs:git\x20flow\x20support
 SETUVAR _fish_abbr_gfss:git\x20flow\x20support\x20start
 SETUVAR _fish_abbr_gfst:git\x20flow\x20support\x20track
+SETUVAR _fish_abbr_ggpull:git\x20pull\x20origin\x20\x24\x28git_branch_name\x29
+SETUVAR _fish_abbr_ggpush:git\x20push\x20origin\x20\x24\x28git_branch_name\x29
 SETUVAR _fish_abbr_gignore:git\x20update\x2dindex\x20\x2d\x2dassume\x2dunchanged
 SETUVAR _fish_abbr_gl:git\x20pull
 SETUVAR _fish_abbr_glg:git\x20log\x20\x2d\x2dstat\x20\x2d\x2dmax\x2dcount\x3d10
