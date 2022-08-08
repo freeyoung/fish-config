@@ -38,6 +38,7 @@ SETUVAR _fish_abbr_gcod:git\x20checkout\x20develop
 SETUVAR _fish_abbr_gcom:git\x20checkout\x20master
 SETUVAR _fish_abbr_gcount:git\x20shortlog\x20\x2dsn
 SETUVAR _fish_abbr_gcp:git\x20cherry\x2dpick
+SETUVAR _fish_abbr_gcs:git\x20checkout\x20staging
 SETUVAR _fish_abbr_gd:git\x20diff
 SETUVAR _fish_abbr_gdca:git\x20diff\x20\x2d\x2dcached
 SETUVAR _fish_abbr_gf:git\x20fetch
