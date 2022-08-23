@@ -2,6 +2,7 @@ package foreign-env
 package fzf
 package https://github.com/edc/bass
 package https://github.com/fabioantunes/fish-nvm
+package https://github.com/jhillyerd/fish-ssh-agent
 package pyenv
 package z
 theme gentoo
