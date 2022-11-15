@@ -17,10 +17,13 @@ if status is-interactive
     and fish_add_path -g /opt/homebrew/sbin /opt/homebrew/bin /opt/homebrew/opt/coreutils/libexec/gnubin
 
   test -d $HOME/.poetry/bin
-    and fish_add_path -g $HOME/.poetry/bin
+    and fish_add_path -g $HOME/Library/Python/3.10/bin
 
   # Load omf config in the repo
   set REPO_OMF_CONFIG "$HOME/.config/fish/omf"
   test -d $REPO_OMF_CONFIG
     and set -gx OMF_CONFIG $REPO_OMF_CONFIG
 end
+
+test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
+
