@@ -16,8 +16,8 @@ if status is-interactive
   test -d /opt/homebrew
     and fish_add_path -g /opt/homebrew/sbin /opt/homebrew/bin /opt/homebrew/opt/coreutils/libexec/gnubin
 
-  test -d $HOME/.poetry/bin
-    and fish_add_path -g $HOME/Library/Python/3.10/bin
+  test -f $HOME/.local/bin/poetry
+    and fish_add_path -g $HOME/.local/bin
 
   # Load omf config in the repo
   set REPO_OMF_CONFIG "$HOME/.config/fish/omf"
