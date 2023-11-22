@@ -14,7 +14,7 @@ if status is-interactive
   # Commands to run in interactive sessions can go here
   # Path for Homebrew (Apple Silicon)
   test -d /opt/homebrew
-    and fish_add_path -g /opt/homebrew/sbin /opt/homebrew/bin /opt/homebrew/opt/coreutils/libexec/gnubin
+    and fish_add_path -g /opt/homebrew/sbin /opt/homebrew/bin /opt/homebrew/opt/coreutils/libexec/gnubin /opt/homebrew/opt/grep/libexec/gnubin
 
   test -f $HOME/.local/bin/poetry
     and fish_add_path -g $HOME/.local/bin
