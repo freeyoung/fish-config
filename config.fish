@@ -19,6 +19,9 @@ if status is-interactive
   test -f $HOME/.local/bin/poetry
     and fish_add_path -g $HOME/.local/bin
 
+  test -d $HOME/go/bin
+    and fish_add_path -g $HOME/go/bin
+
   # Load omf config in the repo
   set REPO_OMF_CONFIG "$HOME/.config/fish/omf"
   test -d $REPO_OMF_CONFIG
