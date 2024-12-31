@@ -26,6 +26,9 @@ if status is-interactive
   set REPO_OMF_CONFIG "$HOME/.config/fish/omf"
   test -d $REPO_OMF_CONFIG
     and set -gx OMF_CONFIG $REPO_OMF_CONFIG
+
+  # Load ssh private keys when absent
+  ssh-add -l > /dev/null || ssh-add
 end
 
 test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
