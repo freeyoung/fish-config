@@ -33,3 +33,23 @@ end
 
 test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
 
+pyenv init - fish | source
+
+# Added by OrbStack: command-line tools and integration
+# This won't be added again if you remove it.
+source ~/.orbstack/shell/init2.fish 2>/dev/null || :
+
+# Added by Antigravity
+fish_add_path /Users/eric/.antigravity/antigravity/bin
+
+# bun
+set --export BUN_INSTALL "$HOME/.bun"
+set --export PATH $BUN_INSTALL/bin $PATH
+
+# kimi-code
+fish_add_path -g "/Users/eric/.kimi-code/bin"
+
+# opencode alias
+alias oc="opencode attach http://localhost:4096 --dir ."
+alias occ="opencode attach http://localhost:4096 --dir . -c"
+alias occr="launchctl kickstart -k gui/501/com.opencode.serve"
